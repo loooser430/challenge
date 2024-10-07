@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+        header h1 {
+            display: inline-block;
+            margin: 0;
+            padding-left: 15px;
+            vertical-align: middle;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        nav input[type="text"] {
+            padding: 5px;
+        }
+        nav button {
+            padding: 5px;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .heritage-nav {
+            width: 70%;
+            height: 300px; /* 增加高度 */
+            padding: 10px;
+            background-color: #f2f2f2;
+            overflow-y: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .heritage-nav a {
+            flex: 1 1 45%;
+            padding: 10px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .heritage-nav img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .right-image {
+            width: 30%; /* 右侧图片宽度 */
+            height: 300px; /* 右侧图片高度 */
+            margin-left: 20px; /* 左侧间距 */
+            background-color: #e0e0e0; /* 可选背景色，方便查看 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-image img {
+            max-width: 100%; /* 确保图片适应容器 */
+            max-height: 100%; /* 确保图片适应容器 */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 网站顶部：包含logo和网站名字 -->
+    <header>
+        <img src="mainlogo.png" alt="文化织锦logo">
+        <h1>文化织锦</h1>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+        <a href="#home">主页</a>
+        <a href="#about">关于我们</a>
+        <a href="#services">服务</a>
+        <a href="#contact">联系我们</a>
+        <!-- 搜索框 -->
+        <input type="text" placeholder="请在此输入搜索内容..." style="padding: 5px;">
+        <button type="submit" style="padding: 5px;">搜索</button>
+    </nav>
+
+   <!-- 主容器 -->
+    <div class="container">
+        <!-- 垂直滚动的非遗导航栏，每个导航旁边有一个 logo -->
+        <div class="heritage-nav">
+            <a href="yingGe.html">
+                <img src="yingGe.png" alt="英歌舞">
+                英歌舞
+            </a>
+            <a href="baishouwu.html">
+                <img src="mainlogo/baishouwu.png" alt="摆手舞">
+                摆手舞
+            </a>
+            <a href="chuanju.html">
+                <img src="mainlogo/chuanju.png" alt="川剧">
+                川剧
+            </a>
+            <a href="cuju.html">
+                <img src="mainlogo/cuju.png" alt="蹴鞠">
+                蹴鞠
+            </a>
+            <a href="datongnian.html">
+                <img src="mainlogo/datongnian.png" alt="打侗年">
+                打侗年
+            </a>
+            <a href="guge.html">
+                <img src="mainlogo/guge.png" alt="鼓歌">
+                鼓歌
+            </a>
+            <a href="huagu.html">
+                <img src="mainlogo/huagu.png" alt="花鼓">
+                花鼓
+            </a>
+            <a href="jianzhi.html">
+                <img src="mainlogo/jianzhi.png" alt="剪纸">
+                剪纸
+            </a>
+            <a href="jingju.html">
+                <img src="mainlogo/jingju.png" alt="京剧">
+                京剧
+            </a>
+            <a href="jingtailan.html">
+                <img src="mainlogo/jingtailan.png" alt="景泰蓝">
+                景泰蓝
+            </a>
+            <a href="kongzhu.html">
+                <img src="mainlogo/kongzhu.png" alt="空竹">
+                空竹
+            </a>
+            <a href="kunqu.html">
+                <img src="mainlogo/kunqu.png" alt="昆曲">
+                昆曲
+            </a>
+            <a href="laran.html">
+                <img src="mainlogo/laran.png" alt="蜡染">
+                蜡染
+            </a>
+            <a href="mengjiangnv.html">
+                <img src="mainlogo/mengjiangnv.png" alt="孟姜女">
+                孟姜女
+            </a>
+            <a href="piyingxi.html">
+                <img src="mainlogo/piyingxi.png" alt="皮影戏">
+                皮影戏
+            </a>
+            <a href="taijiquan.html">
+                <img src="mainlogo/taijiquan.png" alt="太极拳">
+                太极拳
+            </a>
+            <a href="xiangsheng.html">
+                <img src="mainlogo/xiangsheng.png" alt="相声">
+                相声
+            </a>
+            <a href="yinshi.html">
+                <img src="mainlogo/yinshi.png" alt="银饰">
+                银饰
+            </a>
+            <a href="yuju.html">
+                <img src="mainlogo/yuju.png" alt="豫剧">
+                豫剧
+            </a>
+            <a href="zaran.html">
+                <img src="mainlogo/zaran.png" alt="扎染">
+                扎染
+            </a>
+            <a href="zhongyi.html">
+                <img src="mainlogo/zhongyi.png" alt="中医">
+                中医
+            </a>
+        </div>
+
+        <!-- 右侧图片 -->
+        <div class="right-image">
+            <img src="right.png" alt="Right Image">
+        </div>
+    </div>
+          <!-- 新增两个板块 -->
+    <div class="content" style="margin-top: 0px;"> 
+        <div style="display: flex; height: 500px; margin-top: 20px; margin-left: 20px;">
+            <!-- 左边照片区域 -->
+            <div style="flex: 1; background-color: #eaeaea; padding: 10px;">
+                <img src="left.png" alt="Left Photo" style="width: 100%; height: auto;">
+            </div>
+<!-- 右边文字区域 -->
+<div style="flex: 1; padding: 10px; display: flex; flex-direction: column; justify-content: flex-start; text-align: center; border: 1px solid #ccc;">
+    <h2 style="margin-bottom: 20px; font-size: 24px; color: #4A4A4A;">非遗文化介绍</h2>
+    <div style="flex: 1; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+        <div style="writing-mode: vertical-rl; text-orientation: upright; line-height: 1.5; font-size: 16px; color: #333; position: relative;">
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">京剧是中国传统戏曲，融合了音乐、舞蹈与武术。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">传统剪纸是民间艺术，表达了人们对美好生活的向往。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">端午节纪念屈原，吃粽子、赛龙舟是传统习俗。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">茶艺讲究泡茶技法，展现了中华茶文化的深厚底蕴。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">面具制作是民族文化的重要表现，常用于节庆和表演。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">刺绣技艺丰富多样，是中国传统手工艺的代表之一。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">藏族舞蹈富有民族特色，展现了藏文化的多样性。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">民间故事传承着古老智慧，是文化的宝贵遗产。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">陶艺是一种传统手工艺，体现了人类对自然的尊重。</p>
+            <p style="margin: 0 20px; position: relative; padding: 5px; border-left: 2px solid #A9A9A9;">放风筝是民间传统，象征着美好的愿望与祝福。</p>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+ <!-- 新增的两个正方形页面 -->
+<div class="content" style="display: flex; margin-top: 20px;">
+    <div class="exhibition-section" style="width: 50%; padding: 10px;">
+        <!-- 最新活动/展览信息 -->
+        <div class="exhibition-left" style="padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #fff;">
+            <div class="exhibition-title" style="font-size: 24px; font-weight: bold; margin-bottom: 15px; text-align: center; color: #333;">最新活动/展览信息</div>
+            <div class="exhibition-list" style="text-align: center; margin-top: 10px;">
+                <div class="exhibition-item" style="margin: 15px 0; cursor: pointer; background-color: #f9e4b7; border-radius: 5px; padding: 10px; transition: background-color 0.3s; color: #333;" onclick="showDetails('exhibition1')">时光印记：非遗的故事与传承</div>
+                <div class="exhibition-item" style="margin: 15px 0; cursor: pointer; background-color: #e1f0f5; border-radius: 5px; padding: 10px; transition: background-color 0.3s; color: #333;" onclick="showDetails('exhibition2')">艺海探源：探索非遗之美</div>
+                <div class="exhibition-item" style="margin: 15px 0; cursor: pointer; background-color: #f4c2c2; border-radius: 5px; padding: 10px; transition: background-color 0.3s; color: #333;" onclick="showDetails('exhibition3')">绣花世界：传统技艺的魅力</div>
+                <div class="exhibition-item" style="margin: 15px 0; cursor: pointer; background-color: #b7e3b8; border-radius: 5px; padding: 10px; transition: background-color 0.3s; color: #333;" onclick="showDetails('exhibition4')">音韵流芳：民俗音乐与舞蹈的奇迹</div>
+                <div class="exhibition-item" style="margin: 15px 0; cursor: pointer; background-color: #f5e6b1; border-radius: 5px; padding: 10px; transition: background-color 0.3s; color: #333;" onclick="showDetails('exhibition5')">手作传承：匠心独运的非遗技艺</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 右边的展示区域 -->
+    <div class="exhibition-right" style="width: 50%; padding: 10px;">
+        <div class="exhibition-details" id="exhibition1" style="display: none; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #e6b84a; color: #fff;">
+            <h3 style="font-size: 22px; font-weight: bold;">时光印记：非遗的故事与传承</h3>
+            <img src="1.png" alt="Exhibition 1" style="width: 100%; border-radius: 8px;">
+            <p style="margin-top: 15px;">通过丰富的展品和多媒体互动，探索非遗背后的故事，展示如何在现代社会中传承和保护这些珍贵的文化遗产。</p>
+        </div>
+        <div class="exhibition-details" id="exhibition2" style="display: none; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #4f6f9f; color: #fff;">
+            <h3 style="font-size: 22px; font-weight: bold;">艺海探源：探索非遗之美</h3>
+            <img src="2.png" alt="Exhibition 2" style="width: 100%; border-radius: 8px;">
+            <p style="margin-top: 15px;">本展览将带您走进非遗艺术的世界，展示传统手工艺、民间艺术以及独特的地方特色，让您领略到这些艺术形式的深厚底蕴与美丽。</p>
+        </div>
+        <div class="exhibition-details" id="exhibition3" style="display: none; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #d24c4c; color: #fff;">
+            <h3 style="font-size: 22px; font-weight: bold;">绣花世界：传统技艺的魅力</h3>
+            <img src="3.png" alt="Exhibition 3" style="width: 100%; border-radius: 8px;">
+            <p style="margin-top: 15px;">专注于刺绣这一传统工艺，展览将展示各地区独特的刺绣技艺，通过实物和演示，让观众了解刺绣的历史、文化以及在当代的创新应用。</p>
+        </div>
+        <div class="exhibition-details" id="exhibition4" style="display: none; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #7b9e52; color: #fff;">
+            <h3 style="font-size: 22px; font-weight: bold;">音韵流芳：民俗音乐与舞蹈的奇迹</h3>
+            <img src="4.png" alt="Exhibition 4" style="width: 100%; border-radius: 8px;">
+            <p style="margin-top: 15px;">通过现场表演和音频展示，探索中国各地的民俗音乐与舞蹈，感受这些艺术形式在传承中的生命力与感染力，带领观众进入一个多姿多彩的音韵世界。</p>
+        </div>
+        <div class="exhibition-details" id="exhibition5" style="display: none; padding: 20px; border: 1px solid #ccc; border-radius: 8px; background-color: #f2d7c8; color: #000;">
+            <h3 style="font-size: 22px; font-weight: bold;">手作传承：匠心独运的非遗技艺</h3>
+            <img src="5.png" alt="Exhibition 5" style="width: 100%; border-radius: 8px;">
+            <p style="margin-top: 15px;">本展览聚焦于非遗手工艺，展示匠人的创作过程和技艺传承。通过互动体验，观众可以亲身感受传统手工艺的魅力，了解每一件作品背后的故事。</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function showDetails(exhibitionId) {
+        // 隐藏所有展览详情
+        document.querySelectorAll('.exhibition-details').forEach(detail => {
+            detail.style.display = 'none';
+        });
+        // 显示对应的展览详情
+        const detail = document.getElementById(exhibitionId);
+        if (detail) {
+            detail.style.display = 'block';
+        }
+    }
+</script>
+
+
+<footer style="display: flex; justify-content: center; align-items: center; padding: 10px; background-color: #f1f1f1;">
+    本网页为大挑比赛使用，仅供学习与参考，若有侵权，请联系我们 &nbsp;&nbsp; 更新时间: 2024/10/6
+</footer>
+</body>
+</html>
